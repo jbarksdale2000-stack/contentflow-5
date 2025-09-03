@@ -1,4 +1,4 @@
-import StripeButton from '@/components/StripeButton';
+import StripeButton from '../components/StripeButton';
 
 export default function Home() {
   return (
