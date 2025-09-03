@@ -1,4 +1,4 @@
-import { getOpenAI } from '@/lib/openai';
+import { getOpenAI } from '../../../lib/openai';
 import { z } from 'zod';
 
 export const runtime = 'nodejs';
