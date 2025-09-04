@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-import { createClient } from '../../../lib/supabase';
+import { createClient } from '../../../lib/supabase-client';
 
 export default function SignInPage() {
   const [email, setEmail] = useState('');
