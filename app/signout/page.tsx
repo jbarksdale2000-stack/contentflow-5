@@ -1,5 +1,6 @@
 'use client'
-import { createClient } from '../lib/supabase-client';
+// correct (go up to repo root, then into lib/)
+import { createClient } from '../../lib/supabase-client';
 import { useEffect } from 'react';
 
 export default function SignOut() {
