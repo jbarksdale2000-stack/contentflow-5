@@ -1,6 +1,7 @@
 'use client'
-import { createClient } from '../../lib/supabase-client';
+import { createClient } from './supabase-client';
 import { useEffect } from 'react';
+
 export default function SignOut() {
   useEffect(() => {
     createClient().auth.signOut().finally(() => {
